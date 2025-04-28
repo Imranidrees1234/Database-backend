@@ -214,6 +214,10 @@ app.get("/api/images", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Admin Server is Running! (With Updated Cors)");
+});
+
 // const PORT_API = 5005;
 // const PORT_SOCKET = 5006;
 
@@ -221,6 +225,7 @@ const PORT = process.env.PORT || 5005;
 httpServer.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 
 // socketServer.listen(PORT_SOCKET, () => console.log(`🔌 WebSocket server running on port ${PORT_SOCKET}`));
+
 
 
 
