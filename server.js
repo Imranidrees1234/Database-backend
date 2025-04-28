@@ -22,7 +22,7 @@ const io = new Server(httpServer, {
       "http://localhost:3000",
       "http://localhost:3001",
       "http://localhost:3002",
-      "https://admin-app-new.vercel.app/",
+      "https://admin-app-new.vercel.app/login",
       "https://client-app-new.vercel.app/",
       "https://driver-app-new.vercel.app/",
     ],
